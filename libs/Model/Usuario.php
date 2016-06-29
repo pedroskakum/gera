@@ -55,23 +55,23 @@ class Usuario extends UsuarioDAO implements IAuthenticatable
     /**
      * {@inheritdoc}
      */
-    public function Login($username,$password)
+    public function Login($email,$senha)
     {
         // IF THERE IS NO USERNAME THEN DON'T BOTHER CHECKING THE DATABASE
-        if (!$username) return false;
+        if (!$email) return false;
 
         $result = false;
 
         $criteria = new UsuarioCriteria();
-        $criteria->Username_Equals = $username;
+        $criteria->Email_Equals = $email;
 
         try {
             $user = $this->_phreezer->GetByCriteria("Usuario", $criteria);
 
             // WE NEED TO STRIP OFF THE "!!!" PREFIX THAT WAS ADDED IN "OnSave" BELOW:
-            $hash = substr($user->Password, 3);
+            $hash = substr($user->Senha, 3);
 
-            if (password_verify($password, $hash))
+            if (password_verify($senha, $hash))
             {
                 // THE USERNAME/PASSWORD COMBO IS CORRECT!
 

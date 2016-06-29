@@ -22,7 +22,7 @@
 			<fieldset>
 			<legend>Entre com as suas credenciais</legend>
 				<div class="control-group">
-				<input id="username" name="username" type="text" placeholder="Email..." />
+				<input id="email" name="email" type="text" placeholder="Email..." />
 				</div>
 				<div class="control-group">
 				<input id="password" name="password" type="password" placeholder="Senha..." />
