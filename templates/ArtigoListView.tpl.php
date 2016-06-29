@@ -46,7 +46,7 @@
 			<tr id="<%= _.escape(item.get('id')) %>">
 				<td><%= _.escape(item.get('id') || '') %></td>
 				<td><%= _.escape(item.get('nome') || '') %></td>
-				<td><%= _.escape(item.get('caminhoArtigo') || '') %></td>
+				<td><a target="_blank"><%= _.escape(item.get('caminhoArtigo') || '') %></a></td>
 				<td><%= _.escape(item.get('evento') || '') %></td>
 				<td><%= _.escape(item.get('autor') || '') %></td>
 			</tr>
