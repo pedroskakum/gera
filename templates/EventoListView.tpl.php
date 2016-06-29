@@ -111,7 +111,7 @@
 				<div class="control-group">
 					<label class="control-label"></label>
 					<div class="controls">
-						<button id="deleteEventoButton" class="btn btn-mini btn-danger"><i class="icon-trash icon-white"></i> Delete Evento</button>
+						<button id="deleteEventoButton" class="btn btn-mini btn-danger"><i class="icon-trash icon-white"></i> Deletar Evento</button>
 						<span id="confirmDeleteEventoContainer" class="hide">
 							<button id="cancelDeleteEventoButton" class="btn btn-mini">Cancelar</button>
 							<button id="confirmDeleteEventoButton" class="btn btn-mini btn-danger">Confirmar</button>

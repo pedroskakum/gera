@@ -105,7 +105,7 @@
 				<div class="control-group">
 					<label class="control-label"></label>
 					<div class="controls">
-						<button id="deleteArtigoButton" class="btn btn-mini btn-danger"><i class="icon-trash icon-white"></i> Delete Artigo</button>
+						<button id="deleteArtigoButton" class="btn btn-mini btn-danger"><i class="icon-trash icon-white"></i> Deletar Artigo</button>
 						<span id="confirmDeleteArtigoContainer" class="hide">
 							<button id="cancelDeleteArtigoButton" class="btn btn-mini">Cancelar</button>
 							<button id="confirmDeleteArtigoButton" class="btn btn-mini btn-danger">Confirmar</button>
