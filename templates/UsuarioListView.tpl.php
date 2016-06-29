@@ -108,7 +108,7 @@
 						<button id="deleteUsuarioButton" class="btn btn-mini btn-danger"><i class="icon-trash icon-white"></i> Delete Usuario</button>
 						<span id="confirmDeleteUsuarioContainer" class="hide">
 							<button id="cancelDeleteUsuarioButton" class="btn btn-mini">Cancelar</button>
-							<button id="confirmDeleteUsuarioButton" class="btn btn-mini btn-danger">Confirm</button>
+							<button id="confirmDeleteUsuarioButton" class="btn btn-mini btn-danger">Confirmar</button>
 						</span>
 					</div>
 				</div>

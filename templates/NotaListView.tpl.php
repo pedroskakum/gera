@@ -99,7 +99,7 @@
 						<button id="deleteNotaButton" class="btn btn-mini btn-danger"><i class="icon-trash icon-white"></i> Delete Nota</button>
 						<span id="confirmDeleteNotaContainer" class="hide">
 							<button id="cancelDeleteNotaButton" class="btn btn-mini">Cancelar</button>
-							<button id="confirmDeleteNotaButton" class="btn btn-mini btn-danger">Confirm</button>
+							<button id="confirmDeleteNotaButton" class="btn btn-mini btn-danger">Confirmar</button>
 						</span>
 					</div>
 				</div>

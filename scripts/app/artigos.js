@@ -324,7 +324,7 @@ var page = {
 			wait: true,
 			success: function(){
 				$('#artigoDetailDialog').modal('hide');
-				setTimeout("app.appendAlert('Artigo was sucessfully " + (isNew ? "inserted" : "updated") + "','alert-success',3000,'collectionAlert')",500);
+				setTimeout("app.appendAlert('O Artigo foi " + (isNew ? "inserido" : "alterado") + " com sucesso','alert-success',3000,'collectionAlert')",500);
 				app.hideProgress('modelLoader');
 
 				// if the collection was initally new then we need to add it to the collection now
@@ -371,7 +371,7 @@ var page = {
 			wait: true,
 			success: function(){
 				$('#artigoDetailDialog').modal('hide');
-				setTimeout("app.appendAlert('The Artigo record was deleted','alert-success',3000,'collectionAlert')",500);
+				setTimeout("app.appendAlert('O Artigo foi deletado com sucesso','alert-success',3000,'collectionAlert')",500);
 				app.hideProgress('modelLoader');
 
 				if (model.reloadCollectionOnModelUpdate) {

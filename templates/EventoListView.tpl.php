@@ -114,7 +114,7 @@
 						<button id="deleteEventoButton" class="btn btn-mini btn-danger"><i class="icon-trash icon-white"></i> Delete Evento</button>
 						<span id="confirmDeleteEventoContainer" class="hide">
 							<button id="cancelDeleteEventoButton" class="btn btn-mini">Cancelar</button>
-							<button id="confirmDeleteEventoButton" class="btn btn-mini btn-danger">Confirm</button>
+							<button id="confirmDeleteEventoButton" class="btn btn-mini btn-danger">Confirmar</button>
 						</span>
 					</div>
 				</div>

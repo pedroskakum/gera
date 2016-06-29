@@ -272,7 +272,7 @@ var page = {
 			wait: true,
 			success: function(){
 				$('#usuarioDetailDialog').modal('hide');
-				setTimeout("app.appendAlert('Usuario was sucessfully " + (isNew ? "inserted" : "updated") + "','alert-success',3000,'collectionAlert')",500);
+				setTimeout("app.appendAlert('O Usuário foi " + (isNew ? "inserido" : "alterado") + " com sucesso','alert-success',3000,'collectionAlert')",500);
 				app.hideProgress('modelLoader');
 
 				// if the collection was initally new then we need to add it to the collection now
@@ -319,7 +319,7 @@ var page = {
 			wait: true,
 			success: function(){
 				$('#usuarioDetailDialog').modal('hide');
-				setTimeout("app.appendAlert('The Usuario record was deleted','alert-success',3000,'collectionAlert')",500);
+				setTimeout("app.appendAlert('O Usuário foi deletado com sucesso','alert-success',3000,'collectionAlert')",500);
 				app.hideProgress('modelLoader');
 
 				if (model.reloadCollectionOnModelUpdate) {

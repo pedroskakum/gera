@@ -108,7 +108,7 @@
 						<button id="deleteArtigoButton" class="btn btn-mini btn-danger"><i class="icon-trash icon-white"></i> Delete Artigo</button>
 						<span id="confirmDeleteArtigoContainer" class="hide">
 							<button id="cancelDeleteArtigoButton" class="btn btn-mini">Cancelar</button>
-							<button id="confirmDeleteArtigoButton" class="btn btn-mini btn-danger">Confirm</button>
+							<button id="confirmDeleteArtigoButton" class="btn btn-mini btn-danger">Confirmar</button>
 						</span>
 					</div>
 				</div>

@@ -323,7 +323,7 @@ var page = {
 			wait: true,
 			success: function(){
 				$('#notaDetailDialog').modal('hide');
-				setTimeout("app.appendAlert('Nota was sucessfully " + (isNew ? "inserted" : "updated") + "','alert-success',3000,'collectionAlert')",500);
+				setTimeout("app.appendAlert('A Nota foi " + (isNew ? "inserida" : "alterada") + " com sucesso','alert-success',3000,'collectionAlert')",500);
 				app.hideProgress('modelLoader');
 
 				// if the collection was initally new then we need to add it to the collection now
@@ -370,7 +370,7 @@ var page = {
 			wait: true,
 			success: function(){
 				$('#notaDetailDialog').modal('hide');
-				setTimeout("app.appendAlert('The Nota record was deleted','alert-success',3000,'collectionAlert')",500);
+				setTimeout("app.appendAlert('A Nota foi deletada com sucesso','alert-success',3000,'collectionAlert')",500);
 				app.hideProgress('modelLoader');
 
 				if (model.reloadCollectionOnModelUpdate) {
