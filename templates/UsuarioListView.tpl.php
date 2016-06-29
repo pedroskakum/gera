@@ -21,7 +21,7 @@
 <div class="container">
 
 <h1>
-	<i class="icon-th-list"></i> Usuarios
+	<i class="icon-th-list"></i> Usuários
 	<span id=loader class="loader progress progress-striped active"><span class="bar"></span></span>
 	<span class='input-append pull-right searchContainer'>
 		<input id='filter' type="text" placeholder="Pesquisar..." />
@@ -121,7 +121,7 @@
 		<div class="modal-header">
 			<a class="close" data-dismiss="modal">&times;</a>
 			<h3>
-				<i class="icon-edit"></i> Editar Usuario
+				<i class="icon-edit"></i> Editar Usuário
 				<span id="modelLoader" class="loader progress progress-striped active"><span class="bar"></span></span>
 			</h3>
 		</div>
@@ -141,7 +141,7 @@
 	</div>
 
 	<p id="newButtonContainer" class="buttonContainer">
-		<button id="newUsuarioButton" class="btn btn-primary">Adicionar Usuario</button>
+		<button id="newUsuarioButton" class="btn btn-primary">Adicionar Usuário</button>
 	</p>
 
 </div> <!-- /container -->
